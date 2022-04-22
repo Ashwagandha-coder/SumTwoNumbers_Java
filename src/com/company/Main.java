@@ -3,6 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        int main = new Main().sum(2,2);
+
+
+
+    }
+    public int sum(int a, int b) {
+        return a + b;
     }
 }
